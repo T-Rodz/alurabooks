@@ -3,6 +3,8 @@
 :root {
     --cor-de-fundo : #C4C4C4;
     --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 
 }
 
@@ -13,3 +15,30 @@ body {
 .container {
     display: flex;
 }
+
+
+/* INFRAESTRUTURA 
+
+width: 131px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height 
+
+/* Teste 
+background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+/* Inside auto layout 
+flex: none;
+order: 0;
+flex-grow: 0;
+*/
